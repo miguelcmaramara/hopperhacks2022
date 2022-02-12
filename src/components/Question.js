@@ -1,4 +1,5 @@
 import "./css/Question.css"
+import "./QuizButton"
 
 function Question(props){
     return(

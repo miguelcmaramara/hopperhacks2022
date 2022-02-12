@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import ReactComponent from './components/TEMPLATE'
-
+import QuizButtton from './components/QuizButton'
 import QuestionPage from './components/QuestionPage';
 
 
@@ -26,7 +26,7 @@ function App() {
       </header>
 
       <ReactComponent></ReactComponent>
-
+      <QuizButtton></QuizButtton>
 
 
       <QuestionPage></QuestionPage>

@@ -5,7 +5,9 @@ import InTrees from "./InTrees"
 function QuestionPage(props){
     return(
         <div className="QuestionPage">
-            <Question></Question>
+            <div className="QuestionBox">
+                <Question></Question>
+            </div>
             <InTrees></InTrees>
         </div>
     );
