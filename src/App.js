@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import ReactComponent from './components/TEMPLATE'
+import SkipButton from './components/SkipButton';
+
 
 
 
@@ -26,6 +28,8 @@ function App() {
       </header>
 
       <ReactComponent></ReactComponent>
+      <SkipButton></SkipButton>
+
 
 
 
