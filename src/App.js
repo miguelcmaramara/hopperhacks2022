@@ -21,6 +21,20 @@ function App() {
       </header>
 
       <ReactComponent></ReactComponent>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   );
 }
