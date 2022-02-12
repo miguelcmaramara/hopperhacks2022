@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import ReactComponent from './components/TEMPLATE'
 
-
+import QuestionPage from './components/QuestionPage';
 
 
 
@@ -29,7 +29,7 @@ function App() {
 
 
 
-
+      <QuestionPage></QuestionPage>
 
 
 
