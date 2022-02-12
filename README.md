@@ -3,3 +3,4 @@
 ## Team Memeber: Kahlil Polalck-Hinds
 ## Team Member: Adit Anand
 ## Team Memeber: Henry Shi
+## Team Memer: Miguel Maramara
