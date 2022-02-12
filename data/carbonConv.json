@@ -2,7 +2,7 @@
     {
         "activity":"car",
         "type":"transportation",
-        "rate":0.000445,
+        "rate":0.889766,
         "unit":"mile"
     },
     
@@ -11,6 +11,13 @@
         "type":"food",
         "rate":"2",
         "unit":"item"
+    },
+
+    {
+        "activity":"beef",
+        "type":"food",
+        "rate":48.5017,
+        "unit":"pound"
     },
 
     {
@@ -23,7 +30,7 @@
     {
         "activity":"microwave",
         "type":"appliance",
-        "rate":"4",
+        "rate":0.004666,
         "unit":"minute"
     }
 
