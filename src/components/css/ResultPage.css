@@ -1,0 +1,39 @@
+.ResultPage{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+
+    background-color: aquamarine;
+
+    grid-template-columns: 80% auto;
+    grid-template-rows: 10% 70% auto;
+}
+
+.CatBarBox{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 0;
+    grid-row-start: 1;
+}
+
+.metrics{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-start: 2;
+}
+
+.compare{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-start: 3;
+}
+
+.ResultPage .InTreesBox{
+    width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}

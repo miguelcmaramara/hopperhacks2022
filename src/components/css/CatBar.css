@@ -1,0 +1,18 @@
+.Catbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.Dropdown{
+    width: 30%;
+}
+
+.DropdownMenu{
+    display:none;
+}
+
+.Dropdown:hover .DropdownMenu{
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+}
