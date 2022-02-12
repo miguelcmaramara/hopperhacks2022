@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import ReactComponent from './components/TEMPLATE'
+
 import SkipButton from './components/SkipButton';
 
-
+import QuizButtton from './components/QuizButton'
 import QuestionPage from './components/QuestionPage';
 
 
@@ -31,8 +32,7 @@ function App() {
       <ReactComponent></ReactComponent>
       <SkipButton></SkipButton>
 
-
-
+      <QuizButtton></QuizButtton>
 
       <QuestionPage></QuestionPage>
 
