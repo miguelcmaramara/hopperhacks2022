@@ -21,9 +21,16 @@
     },
 
     {
-        "activity":"phone",
+        "activity":"phone-idle",
         "type":"appliance",
-        "rate":"3",
+        "rate":0.000242,
+        "unit":"hour"
+    },
+
+    {
+        "activity":"phone-active",
+        "type":"appliance",
+        "rate":0.001499,
         "unit":"hour"
     },
 
