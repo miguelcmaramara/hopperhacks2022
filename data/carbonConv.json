@@ -15,14 +15,14 @@
 
     {
         "activity":"phone",
-        "type":"lifestyle",
+        "type":"appliance",
         "rate":"3",
         "unit":"hour"
     },
 
     {
         "activity":"microwave",
-        "type":"household",
+        "type":"appliance",
         "rate":"4",
         "unit":"minute"
     }
