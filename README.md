@@ -1,3 +1,6 @@
 # hopperhacks2022
 
-# Team Memer: Henry Shi
+
+## Team Memeber: Kahlil Polalck-Hinds
+## Team Member: Adit Anand
+## Team Memer: Henry Shi
