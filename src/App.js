@@ -2,6 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import ReactComponent from './components/TEMPLATE'
 
+import QuestionPage from './components/QuestionPage';
+
+
+
+
 function App() {
   return (
     <div className="App">
@@ -21,6 +26,20 @@ function App() {
       </header>
 
       <ReactComponent></ReactComponent>
+
+
+
+      <QuestionPage></QuestionPage>
+
+
+
+
+
+
+
+
+
+
     </div>
   );
 }
