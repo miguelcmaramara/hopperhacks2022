@@ -6,4 +6,4 @@
 ## Team Memer: Miguel Maramara
 
 ## Carbon conversion info
-All carbon dioxide emissions are in US tons
+All carbon dioxide emissions are in US tons / specified unit
