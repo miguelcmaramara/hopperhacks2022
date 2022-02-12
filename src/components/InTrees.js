@@ -2,7 +2,10 @@ import "./css/InTrees.css"
 
 function InTrees(props){
     return(
-        <h2>Intrees tracker</h2>
+        <div className="InTrees">
+            <h1>hello World</h1>
+
+        </div>
     )
 }
 
