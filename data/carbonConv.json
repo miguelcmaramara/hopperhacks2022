@@ -1,20 +1,30 @@
-{
-
-    "rated" : {
-        "activity":{
-            "amount": "5 carbon",
-            "per": "miles"
-        },
-        "car":{
-            "amount":0.000445
-        },
-        "burger":{
-            "amount":"10 carbon",
-            "per":"unit"
-        }
+[
+    {
+        "activity":"car",
+        "type":"transportation",
+        "rate":0.000445,
+        "unit":"mile"
     },
-    "one-time" :{
-        "name": "amount",
-        "amount": "2 carbon"
+    
+    {
+        "activity":"burger",
+        "type":"food",
+        "rate":"2",
+        "unit":"item"
+    },
+
+    {
+        "activity":"phone",
+        "type":"appliance",
+        "rate":"3",
+        "unit":"hour"
+    },
+
+    {
+        "activity":"microwave",
+        "type":"appliance",
+        "rate":"4",
+        "unit":"minute"
     }
-}
+
+]

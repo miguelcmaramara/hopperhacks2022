@@ -1,16 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
 import ReactComponent from './components/TEMPLATE'
+
+import SkipButton from './components/SkipButton';
+
 import QuizButtton from './components/QuizButton'
 import QuestionPage from './components/QuestionPage';
 import MCQ from './components/MCQ';
+import SliderQ from './components/SliderQ';
 
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and don't save to reload.
@@ -23,14 +27,16 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      
 
       <ReactComponent></ReactComponent>
+      <SkipButton></SkipButton>
+
       <QuizButtton></QuizButtton>
 
-
       <QuestionPage></QuestionPage>
-      <MCQ size = "5"></MCQ>
+      <SliderQ></SliderQ>
 
 
 
