@@ -3,7 +3,7 @@ import './App.css';
 import ReactComponent from './components/TEMPLATE'
 import QuizButtton from './components/QuizButton'
 import QuestionPage from './components/QuestionPage';
-
+import MCQ from './components/MCQ';
 
 
 
@@ -30,8 +30,7 @@ function App() {
 
 
       <QuestionPage></QuestionPage>
-
-
+      <MCQ size = "5"></MCQ>
 
 
 
