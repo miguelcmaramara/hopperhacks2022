@@ -2,4 +2,18 @@
     width: 100%;
     height:100vh;
     background-color: bisque;
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+.QuestionBox{
+    width: 80%;
+    overflow: scroll;
+}
+
+.InTreesBox{
+    box-sizing: border-box;
+    width: 20%;
 }
