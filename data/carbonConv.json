@@ -2,28 +2,35 @@
     {
         "activity":"car",
         "type":"transportation",
-        "rate":0.000445,
+        "rate":0.889766,
         "unit":"mile"
     },
     
     {
         "activity":"burger",
         "type":"food",
-        "rate":"2",
+        "rate":12.1254,
         "unit":"item"
     },
 
     {
+        "activity":"beef",
+        "type":"food",
+        "rate":48.5017,
+        "unit":"pound"
+    },
+
+    {
         "activity":"phone",
-        "type":"lifestyle",
+        "type":"appliance",
         "rate":"3",
         "unit":"hour"
     },
 
     {
         "activity":"microwave",
-        "type":"household",
-        "rate":"4",
+        "type":"appliance",
+        "rate":0.004666,
         "unit":"minute"
     }
 

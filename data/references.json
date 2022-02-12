@@ -3,9 +3,15 @@
         "activity":"car",
         "ref":"https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle"
     },
+
     {
         "activity":"burger",
-        "ref":""
+        "ref":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2535638/"
+    },
+
+    {
+        "activity":"beef",
+        "ref":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2535638/"
     },
 
     {
@@ -15,6 +21,11 @@
 
     {
         "activity":"microwave",
-        "ref":""
+        "ref":"https://ask.usda.gov/s/article/how-do-you-determine-the-wattage-of-your-microwave-oven"
+    },
+
+    {
+        "activity":"all",
+        "ref":"https://psci.princeton.edu/tips/2020/8/15/tree-planting-and-negative-emissions"
     }
 ]
