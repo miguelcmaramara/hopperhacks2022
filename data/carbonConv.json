@@ -7,6 +7,10 @@
         },
         "car":{
             "amount":0.000445
+        },
+        "burger"{
+            "amount":"10 carbon",
+            "per":"unit"
         }
     },
     "one-time" :{
