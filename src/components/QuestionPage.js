@@ -7,8 +7,11 @@ function QuestionPage(props){
         <div className="QuestionPage">
             <div className="QuestionBox">
                 <Question></Question>
+                <Question></Question>
             </div>
-            <InTrees></InTrees>
+            <div className="InTreesBox">
+                <InTrees></InTrees>
+            </div>
         </div>
     );
 }
