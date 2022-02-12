@@ -4,7 +4,7 @@ import ReactComponent from './components/TEMPLATE'
 import SkipButton from './components/SkipButton';
 
 
-
+import QuestionPage from './components/QuestionPage';
 
 
 
@@ -33,7 +33,7 @@ function App() {
 
 
 
-
+      <QuestionPage></QuestionPage>
 
 
 
