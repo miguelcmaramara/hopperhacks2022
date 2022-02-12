@@ -9,12 +9,11 @@
 
 
 .QuestionBox{
-    width: 70%;
+    width: 80%;
     overflow: scroll;
 }
 
 .InTreesBox{
     box-sizing: border-box;
-    width: 30%;
-    padding: 100px;
+    width: 20%;
 }

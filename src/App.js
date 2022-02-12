@@ -6,7 +6,7 @@ import SkipButton from './components/SkipButton';
 
 import QuizButtton from './components/QuizButton'
 import QuestionPage from './components/QuestionPage';
-
+import ResultPage from './components/ResultPage';
 
 
 
@@ -35,7 +35,7 @@ function App() {
       <QuizButtton></QuizButtton>
 
       <QuestionPage></QuestionPage>
-
+      <ResultPage></ResultPage>
 
 
 
