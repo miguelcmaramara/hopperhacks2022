@@ -1,3 +1,6 @@
 .Question {
+    box-sizing: border-box;
     width: 60%;
+    height:100vh;
+    padding: 100px;
 }
