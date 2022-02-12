@@ -1,0 +1,16 @@
+{
+
+    "rated" : {
+        "activity":{
+            "amount": "5 carbon",
+            "per": "miles"
+        },
+        "car":{
+            "amount":0.000445
+        }
+    },
+    "one-time" :{
+        "name": "amount",
+        "amount": "2 carbon"
+    }
+}
