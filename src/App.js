@@ -6,9 +6,8 @@ import SkipButton from './components/SkipButton';
 
 import QuizButtton from './components/QuizButton'
 import QuestionPage from './components/QuestionPage';
-import MCQ from './components/MCQ';
-import SliderQ from './components/SliderQ';
 import ResultPage from './components/ResultPage';
+
 
 
 
@@ -37,8 +36,6 @@ function App() {
       <QuizButtton></QuizButtton>
 
       <QuestionPage></QuestionPage>
-      <SliderQ name = "hi" min ="-100" max = "500"></SliderQ>
-
       <ResultPage></ResultPage>
 
 

@@ -6,7 +6,7 @@ export default function SliderQ(props){
     const [val, setVal] = useState(0);
     return(
         <div>
-            <h4>{props.name}</h4><br></br>
+            <h4>{props.question}</h4><br></br>
             <input id="slide" type="range" min={props.min} max={props.max} onChange={handleChange}/>
             <input type="text" id="textInput" value= {val}/>
         </div>
