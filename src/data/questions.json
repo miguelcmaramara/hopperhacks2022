@@ -1,35 +1,16 @@
 [
     {
-        "type": "MCQ",
-        "num":"1",
-        "question": "hi",
-        "choices": [
-            "1",
-            "2"
-            ],
-        "value": [
-                "1",
-                "2"
-            ]
-    },
-    {
-        "type": "SliderQ",
-        "question": "this is slider",
-        "max": "100",
-        "min":"-100",
-        "num": 2
-    },
-    {
         "type": "SliderQ",
         "question": "How many hours a day do you use your phone?",
         "max": "24",
         "min":"0",
-        "activity": "phone-active"
+        "activity": "phone-active",
+        "num": 1
 
     },
     {
         "type": "MCQ",
-        "question": "How many round-trip airplane flights a day do you take?",
+        "question": "How many round-trip airplane flights a year do you take?",
         "choices":[
             "1",
             "2",
@@ -38,7 +19,16 @@
             "5",
             "6"
         ],
-        "activity": "airplane"
+        "value":[
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "activity": "airplane",
+        "num": 2
 
     },
     {
@@ -51,12 +41,20 @@
             "4",
             "5"
         ],
-        "activity": "meal"
+        "value":[
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "activity": "meal",
+        "num": 3
 
     },
     {
         "type": "MCQ",
-        "question": "Of those meals, how much have?",
+        "question": "Of those meals, how much meat do you have?",
         "choices":[
             "1",
             "2",
@@ -64,16 +62,22 @@
             "4",
             "5"
         ],
-        "activity": "meat"
+        "value":[
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "activity": "meat",
+        "num": 4
     },
     {
         "type": "SliderQ",
         "question": "How many miles do you drive in one day?",
         "max": "200",
         "min":"0",
-        "activity": "car"
-
-        "min":"-100",
-        "num":"2"
+        "activity": "car",
+        "num": 5
     }
 ]

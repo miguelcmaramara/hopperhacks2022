@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 export default function MCQ(props){
     useEffect(() => {
-            var buttons =document.getElementById("test");
+            var buttons =document.getElementById(props.num);
             for (var i =0; i < props.choices.length;i++){
                 var doc = document.createElement("button");
                 doc.carbon =props.value[i]
@@ -17,7 +17,7 @@ export default function MCQ(props){
 
         <div>
             <h4>{props.question}</h4>
-            <div id = "test" className = "ButtonHolder">
+            <div id = {props.num} className = "ButtonHolder">
 
             </div>
         </div>

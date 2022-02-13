@@ -10,7 +10,7 @@ function Question(props){
         var quizQuestion;
         console.log(props.info);
         if(props.info.type =="MCQ"){
-            quizQuestion =(<MCQ question ={props.info.question} choices ={props.info.choices} value ={props.info.value}></MCQ>)
+            quizQuestion =(<MCQ question ={props.info.question} choices ={props.info.choices} value ={props.info.value} num = {"p"+props.info.num}></MCQ>)
             //quizQuestion =document.createElement("MCQ");
             //quizQuestion.setAttribute("question",props.info.question);
             //quizQuestion.setAttribute("choices",props.info.choices);
@@ -47,7 +47,7 @@ function Question(props){
         <div className="Question">
             <h1>{props.name}</h1>
             <form onSubmit={handleSubmit} >{quizQuestion}
-            <input type = "submit" value = "Submit"id={props.name}/>
+            <input type = "submit" value = "Submit"id={props.info.activity}/>
             </form>
 
         </div>

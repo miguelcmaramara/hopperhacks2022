@@ -58,7 +58,7 @@
     {
         "activity":"airplane",
         "category":"transportation",
-        "rate": 1374,
+        "rate": 3.764,
         "unit":"journey",
         "type":"repeating"
     },
@@ -78,7 +78,7 @@
         "rate":176368,
         "unit":"minute",
         "type":"one-time"
-    },
+    }
 
 
 ]
