@@ -7,7 +7,7 @@ import React, { useState, useEffect } from 'react';
 
 
 function QuestionPage(props){
-    var QuestionStack=questions.map((quest)=> <Question info={quest}/>)
+    var QuestionStack=questions.map((quest)=> <Question info={quest} name= {"Q"+quest.num}/>)
     //useEffect(() => {
       //  var box =document.getElementsByClassName("QuestionBox")[0];
         //for (var i=0; i< questions.length;i++){

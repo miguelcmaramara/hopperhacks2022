@@ -1,18 +1,23 @@
 [
     {
         "type": "MCQ",
+        "num":"1",
         "question": "hi",
         "choices": [
             "1",
             "2"
-            
+            ],
+        "value": [
+                "1",
+                "2"
             ]
     },
     {
         "type": "SliderQ",
         "question": "this is slider",
         "max": "100",
-        "min":"-100"
+        "min":"-100",
+        "num": 2
     },
     {
         "type": "SliderQ",
@@ -68,5 +73,7 @@
         "min":"0",
         "activity": "car"
 
+        "min":"-100",
+        "num":"2"
     }
 ]
