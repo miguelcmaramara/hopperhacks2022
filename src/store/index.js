@@ -9,7 +9,7 @@ export const GlobalStoreActionType = {
 
 export const useGlobalStore = () => {
     //Pieces of information that our data store will manage
-    const [store, setStore] = useSate({
+    const [store, setStore] = useState({
         contributingSources: []
     });
 
@@ -32,11 +32,11 @@ export const useGlobalStore = () => {
     // the state of our application. We will call these methods from our
     // components in response to events.
 
-    store.addContributor() = function (source, amount, type) {
-        if(source && amount && type) {
+    store.addContributor = function (source, quantity, type) {
+        if(source && quantity && type) {
             let elementToAdd = {
                 contributorName: source,
-                contributorAmount: amount,
+                contributorQuantity: quantity,
                 contributorType: type};
             let contributingSources = store.contributingSources;
             let payload = contributingSources.append(elementToAdd);
@@ -46,4 +46,6 @@ export const useGlobalStore = () => {
             });
         }
     }
+
+    return { store, storeReducer };
 }

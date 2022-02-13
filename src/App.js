@@ -7,6 +7,7 @@ import SkipButton from './components/SkipButton';
 import QuizButtton from './components/QuizButton'
 import QuestionPage from './components/QuestionPage';
 import ResultPage from './components/ResultPage';
+import ContributorForm from './components/ContributorForm';
 
 
 
@@ -29,6 +30,7 @@ function App() {
         </a>
       </header> */}
       
+      <ContributorForm></ContributorForm>
 
       <ReactComponent></ReactComponent>
       <SkipButton></SkipButton>
@@ -37,7 +39,6 @@ function App() {
 
       <QuestionPage></QuestionPage>
       <ResultPage></ResultPage>
-
 
 
 
