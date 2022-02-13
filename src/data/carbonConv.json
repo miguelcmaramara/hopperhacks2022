@@ -58,8 +58,8 @@
     {
         "activity":"airplane",
         "category":"transportation",
-        "rate": 1374,
-        "unit":"journey",
+        "rate": 3.764,
+        "unit":"day/journey",
         "type":"repeating"
     },
 
