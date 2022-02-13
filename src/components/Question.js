@@ -16,7 +16,7 @@ function Question(props){
             //quizQuestion.setAttribute("choices",props.info.choices);
         }
         else if(props.info.type == "SliderQ"){
-            quizQuestion =(<SliderQ question = {props.info.question} min = {props.info.min} max = {props.info.max}></SliderQ>)
+            quizQuestion =(<SliderQ question = {props.info.question} min = {props.info.min} max = {props.info.max} num ={props.info.num}></SliderQ>)
             //quizQuestion = document.createElement("SliderQ");
             //quizQuestion.setAttribute("question",props.info.question);
             //quizQuestion.setAttribute("min",props.info.min);
