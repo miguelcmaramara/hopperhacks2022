@@ -1,0 +1,84 @@
+[
+    {
+        "activity":"car",
+        "category":"transportation",
+        "rate":0.889766,
+        "unit":"mile",
+        "type":"repeating"
+    },
+    
+    {
+        "activity":"burger",
+        "category":"food",
+        "rate":12.1254,
+        "unit":"item",
+        "type":"repeating"
+    },
+
+    {
+        "activity":"beef",
+        "category":"food",
+        "rate":48.5017,
+        "unit":"pound",
+        "type":"repeating"
+    },
+
+    {
+        "activity":"meal",
+        "category":"food",
+        "rate": 2.79,
+        "unit":"meal",
+        "type":"repeating"
+    },
+
+    {
+        "activity":"meat",
+        "category":"food",
+        "rate": 2.67,
+        "unit":"meal",
+        "type":"repeating"
+    },
+
+    {
+        "activity":"phone-idle",
+        "category":"appliance",
+        "rate":0.000242,
+        "unit":"hour",
+        "type":"repeating"
+    },
+
+    {
+        "activity":"phone-active",
+        "category":"appliance",
+        "rate":0.001499,
+        "unit":"hour",
+        "type":"repeating"
+    },
+
+    {
+        "activity":"airplane",
+        "category":"transportation",
+        "rate": 1374,
+        "unit":"journey",
+        "type":"repeating"
+    },
+
+    {
+        "activity":"microwave",
+        "category":"appliance",
+        "rate":0.004666,
+        "unit":"minute",
+        "type":"repeating"
+    },
+
+    
+    {
+        "activity":"house-buy",
+        "category":"construction",
+        "rate":176368,
+        "unit":"minute",
+        "type":"one-time"
+    },
+
+
+]

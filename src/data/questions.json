@@ -13,5 +13,60 @@
         "question": "this is slider",
         "max": "100",
         "min":"-100"
+    },
+    {
+        "type": "SliderQ",
+        "question": "How many hours a day do you use your phone?",
+        "max": "24",
+        "min":"0",
+        "activity": "phone-active"
+
+    },
+    {
+        "type": "MCQ",
+        "question": "How many round-trip airplane flights a day do you take?",
+        "choices":[
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "activity": "airplane"
+
+    },
+    {
+        "type": "MCQ",
+        "question": "How many meals do you eat a day?",
+        "choices":[
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "activity": "meal"
+
+    },
+    {
+        "type": "MCQ",
+        "question": "Of those meals, how much have?",
+        "choices":[
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "activity": "meat"
+    },
+    {
+        "type": "SliderQ",
+        "question": "How many miles do you drive in one day?",
+        "max": "200",
+        "min":"0",
+        "activity": "car"
+
     }
 ]
