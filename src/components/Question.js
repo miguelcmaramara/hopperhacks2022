@@ -10,7 +10,7 @@ function Question(props){
         var quizQuestion;
         console.log(props.info);
         if(props.info.type =="MCQ"){
-            quizQuestion =(<MCQ question ={props.info.question} choices ={props.info.choices}></MCQ>)
+            quizQuestion =(<MCQ question ={props.info.question} choices ={props.info.choices} value ={props.info.value}></MCQ>)
             //quizQuestion =document.createElement("MCQ");
             //quizQuestion.setAttribute("question",props.info.question);
             //quizQuestion.setAttribute("choices",props.info.choices);
@@ -46,9 +46,20 @@ function Question(props){
     return(
         <div className="Question">
             <h1>{props.name}</h1>
-            {quizQuestion}
+            <form onSubmit={handleSubmit} >{quizQuestion}
+            <input type = "submit" value = "Submit"id={props.name}/>
+            </form>
+
         </div>
     );
+}
+function handleSubmit(event){
+    console.log(event.target[event.target.length-1].id);
+    event.preventDefault();
+    if(event.target[0].id=="slide")
+        console.log(event.target[0].value)
+    else
+        console.log(event.target[0].last)
 }
 
 export default Question;
