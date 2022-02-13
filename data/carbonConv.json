@@ -1,37 +1,60 @@
 [
     {
         "activity":"car",
-        "type":"transportation",
+        "category":"transportation",
         "rate":0.889766,
-        "unit":"mile"
+        "unit":"mile",
+        "type":"repeating"
     },
     
     {
         "activity":"burger",
-        "type":"food",
+        "category":"food",
         "rate":12.1254,
-        "unit":"item"
+        "unit":"item",
+        "type":"repeating"
     },
 
     {
         "activity":"beef",
-        "type":"food",
+        "category":"food",
         "rate":48.5017,
-        "unit":"pound"
+        "unit":"pound",
+        "type":"repeating"
     },
 
     {
-        "activity":"phone",
-        "type":"appliance",
-        "rate":"3",
-        "unit":"hour"
+        "activity":"phone-idle",
+        "category":"appliance",
+        "rate":0.000242,
+        "unit":"hour",
+        "type":"repeating"
+    },
+
+    {
+        "activity":"phone-active",
+        "category":"appliance",
+        "rate":0.001499,
+        "unit":"hour",
+        "type":"repeating"
     },
 
     {
         "activity":"microwave",
-        "type":"appliance",
+        "category":"appliance",
         "rate":0.004666,
-        "unit":"minute"
+        "unit":"minute",
+        "type":"repeating"
+    },
+
+    
+    {
+        "activity":"house-buy",
+        "category":"construction",
+        "rate":176368,
+        "unit":"minute",
+        "type":"one-time"
     }
+
 
 ]
