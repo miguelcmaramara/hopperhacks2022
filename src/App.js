@@ -8,7 +8,7 @@ import QuizButtton from './components/QuizButton'
 import QuestionPage from './components/QuestionPage';
 import ResultPage from './components/ResultPage';
 import ContributorForm from './components/ContributorForm';
-
+import Landing from './components/Landing'
 
 
 
@@ -29,7 +29,7 @@ function App() {
           Learn React
         </a>
       </header> */}
-      
+      <Landing></Landing>
       <ContributorForm></ContributorForm>
 
       <ReactComponent></ReactComponent>

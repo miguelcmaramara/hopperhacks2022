@@ -1,0 +1,26 @@
+.Landing {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+
+.Landing img{
+    position: absolute;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    left: 0%;
+}
+
+.LandingText {
+    position:absolute;
+    color: white;
+}
+
+.Landing button{
+    background-color: white;
+    border:none;
+    color:blue;
+    border-radius: 5px;
+}
